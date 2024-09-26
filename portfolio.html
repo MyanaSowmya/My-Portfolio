@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+    <nav class="nav">
+        <div class="name">Sowmya</div>
+        <div class="section">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#resume">Resume</a> -->
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <div class="content" >
+                <div class="div1">Web Developer</div>
+
+                <div class="div2">
+                    <p>Hello, Welcome.</p>
+                    <br>
+                    <p>I am Myana Sowmya</p>
+                    <br>
+                    <p>Graduated from JNTUH. Intersted in Web Develpment.</p><br>
+                        <p>I'm Passionate about my work.</p>
+                </div>
+
+            </div>
+            <div class="img" style="background-image: url('photo.jpeg');"></div>  
+        </div>
+        <div class="btn-div"><button class="button" onclick="myFunction()">Resume</button></div>
+        
+    </section>
+
+    <section id="skills">
+        <div class="sec-div">
+            <p1>Skills</p1>
+        </div>
+        <div class="flex-container skill-sec">
+            <div class="html box">
+                <img src="html.png">
+                <div class="box-content">
+                    <p> Standard markup language used to create,strcuture content on the web </p>
+                </div>
+            </div>
+            <div class="css box">
+                 <img src="css.png">
+                <div class="box-content">
+                    <p>style and layout webpages to alter the font, color, size and spacing of the content</p>
+                </div>
+            </div>
+            <div class="js box">
+                <img src="js.png">
+                    <div class="box-content">
+                        <p>enables to create dynamically updating content and advanced features in web application</p>
+                    </div>
+            </div>
+            <div class="snow box">
+                <img src="servicenow.png">
+                <div class="box-content">
+                    <p>cloud-based platform for automating multiple management workflows in enterprises</p>
+                </div>
+            </div>
+        </div>  
+        
+    </section>
+
+    <section id="projects">
+        <div class="sec-div">
+            <p1>Projects</p1>
+        </div>
+        <div class="projects-sec">
+            <div class="box1 sec">Project1: Portfolio 
+                <div class="para">
+                    <p2>A Personal Portfolio showcasing my skills and Projects.</p2>
+                </div>
+                
+            </div>
+            <div class="box2 sec">Project2: E-Commerce Website
+                
+               <div class="para">
+                <p2> A E-Commerce website which is a replica of Amazon Website.</p2>
+               </div>
+            </div>
+            <div class="box3 sec">Project3: Rock Paper Scissors
+                
+                <div class="para">
+                    <p2> A Endless fun Game played between human and computer.</p2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="sec-div">
+            <p1>Contact Me</p1>
+        </div>
+        <p3>Feel free to reach out me </p3>
+        
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="Email">Email</label>
+                  <input type="text" id="email" name="Email" placeholder="Your Email Address">
+                    
+                  
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>  
+    </section>
+    <!-- <section id="resume">
+        <div class="resume">
+            Resume
+        </div>
+    </section> -->
+    
+</body>
+</html>
